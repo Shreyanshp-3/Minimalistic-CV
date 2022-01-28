@@ -1,0 +1,367 @@
+/* its the main navbar */
+.container-fluid {
+  padding: 1rem 6.5rem 6.5rem 6.5rem;
+}
+/* the extra setting for the mobile padding */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .container-fluid {
+    padding: 1rem 3rem 3rem 3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .container-fluid {
+    padding: 1rem 4rem 5.5rem 4rem;
+  }
+}
+/* --- */
+
+.navbar {
+  background-color: #f2f4f5;
+}
+.navbar-brand {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.sides-title .nav-link {
+  font-family: "Space Mono", monospace;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+}
+.sides-title {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.sides-title {
+  justify-content: center;
+  padding-left: 8rem;
+}
+.sides {
+  text-align: center;
+}
+.nav-item {
+  padding: 1rem 0;
+}
+
+/* its the main headings on the name */
+.container-fluids {
+  padding: 0rem 4rem;
+  background-color: #f2f4f5;
+}
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .container-fluids {
+    padding: 0rem 2rem;
+    background-color: #f2f4f5;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .container-fluids {
+    padding: 0rem 4rem;
+    background-color: #f2f4f5;
+  }
+}
+/* =================== */
+.mainh {
+  font-family: "Space Mono", monospace;
+  font-size: 5rem;
+}
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .mainh {
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .mainh {
+    font-size: 3.5rem !important;
+  }
+}
+
+/* the blank space */
+.blank-space {
+  background-color: #f2f4f5;
+}
+
+/* the main-about page */
+.mainone {
+  padding-right: 10rem;
+}
+/* the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .mainone {
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .mainone {
+    padding-right: 4rem !important;
+  }
+}
+
+.mabout {
+  font-family: "Space Mono", monospace;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.pabout {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0.8px;
+}
+
+/* the numbers to display */
+/* .container-fluidss{
+  display: flexbox;
+} */
+.number {
+  color: #000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+}
+.nabout {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.num {
+  padding-right: 10rem;
+}
+
+/* * the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .num {
+    justify-items: center;
+    padding-left: 8rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .num {
+    justify-items: center;
+    padding-left: 8rem;
+  }
+}
+
+/* the big text in between */
+#bigheading {
+  background-color: #f2f4f5;
+  text-align: center;
+}
+
+.shadowr {
+  font-family: "Space Mono", Sans-serif;
+  color: #202020;
+  text-transform: uppercase;
+}
+
+.shadowr span {
+  font-size: 7.5rem;
+  color: #f2f4f5;
+  text-shadow: 0 13.36px 8.896px #beb09a, 0 -2px 1px #fff;
+}
+/* * the adjusment  for the font size*/
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .shadowr span {
+    font-size: 3.5rem;
+    color: #f2f4f5;
+    text-shadow: 0 13.36px 8.896px #beb09a, 0 -2px 1px #fff;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .shadowr span {
+    font-size: 5rem;
+    color: #f2f4f5;
+    text-shadow: 0 13.36px 8.896px #beb09a, 0 -2px 1px #fff;
+  }
+}
+
+/* the prod section */
+.prod {
+  font-family: "Space Mono", monospace;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .prod {
+    font-size: 2.3rem;
+    font-weight: bolder;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .prod {
+    font-size: 3.5rem !important;
+    font-weight: bolder;
+  }
+}
+
+/* the cards  */
+.card {
+  background-color: #f2f4f5;
+}
+.card-title {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2em;
+  letter-spacing: 0.8px;
+}
+.card-text {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0.8px;
+  justify-content: center;
+}
+
+/* the work project stuff */
+.works {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2em;
+  letter-spacing: 0.8px;
+}
+.froject {
+  /* color: gray;*/
+  line-height: 2em;
+
+  font-weight: bolder;
+  text-decoration: none;
+  /* font-family: "Space Mono", Sans-serif;  */
+  color: rgba(0, 0, 0, 0.158);
+  font-family: "Open Sans", Sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.froject:hover {
+  color: #000;
+}
+
+.worksp {
+  color: #000;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0.8px;
+}
+/* that one button */
+
+.lik {
+  text-decoration: none;
+  color: #000 !important;
+  font-family: "Space Mono", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+.buttons {
+  list-style-type: none;
+  text-decoration: none;
+
+  color: #000 !important;
+}
+.contactus {
+  text-decoration: none;
+}
+
+/* the normal form */
+/* body {
+  font-family: "Space Mono", Sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  min-width: 40rem;
+  padding: 1px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+} */
+/* .space {
+  background-color: #f2f4f5;
+  border-bottom: 2px solid gray;
+}
+.space1 {
+  background-color: #f2f4f5;
+  border-right: 2px solid gray;
+} */
+/* #lname {
+  width: 2rem;
+  background-color: #f2f4f5;
+
+  border-bottom: 2px solid gray;
+} */
+
+/* @media (max-width: 768px) {
+  .formwid{
+    min-width: 20rem;
+    word-wrap: break-word;
+  
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .formwid{
+    min-width: 20rem;
+    word-wrap: break-word;
+  
+  }
+} */
+
+/* try 2 form */
+#cont {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type="text"],
+select,
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid gray;
+
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.colos {
+  background-color: #f2f4f5;
+}
