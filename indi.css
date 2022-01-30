@@ -179,7 +179,7 @@
 @media (max-width: 768px) {
   /* CSS in here for mobile only */
   .shadowr span {
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: #f2f4f5;
     text-shadow: 0 13.36px 8.896px #beb09a, 0 -2px 1px #fff;
   }
@@ -187,7 +187,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   /* CSS in here for tablet only */
   .shadowr span {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #f2f4f5;
     text-shadow: 0 13.36px 8.896px #beb09a, 0 -2px 1px #fff;
   }
